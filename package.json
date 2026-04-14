@@ -11,9 +11,12 @@
     "electron-builder": "^24.0.0"
   },
   "build": {
-    "appId": "com.rfl.adhd",
-    "mac": {
-      "target": "dmg"
-    }
-  }
+  "appId": "com.rfl.adhd",
+  "mac": {
+    "target": "dmg"
+  },
+  "files": [
+    "**/*"
+  ]
+}
 }
